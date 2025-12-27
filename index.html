@@ -8,11 +8,16 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <div class="container">
-      <img src="images/boni.jpg" alt="Bontu Abera" class="profile-pic" width="120">
-      <h1>Bontu Abera</h1>
-      <p>Full-Stack Developer & Security Architect</p>
+<header>
+  <div class="header-container">
+    <div class="branding">
+      <img src="images/boni.jpg" alt="Bontu Abera" class="profile-pic" width="100">
+      <div class="identity">
+        <h1>Bontu Abera</h1>
+        <p>Full-Stack Developer & Security Architect</p>
+      </div>
+    </div>
+    <div class="nav-actions">
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
@@ -22,11 +27,15 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <button id="theme-toggle">☀️ Light Mode</button>
     </div>
-  </header>
+  </div>
+</header>
+
+
 
   <!-- About Me -->
-  <section id="about">
+  <section id="about" class="reveal">
     <h2>About Me</h2>
     <p>
       I’m a final-year Software Engineering student at Arba Minch University with 2 years of full-stack development experience. 
@@ -38,7 +47,7 @@
   </section>
 
   <!-- Skills -->
-  <section id="skills">
+  <section id="skills" class="reveal">
     <h2>Skills</h2>
     <ul>
       <li> <h3>Programming Languages:</h3> JavaScript, React, HTML, CSS, Python, TypeScript</li>
@@ -50,42 +59,43 @@
   </section>
 
   <!-- Projects -->
-  <section id="projects">
+  <section id="projects" class="reveal">
     <h2>Projects</h2>
-    <div class="project">
+    <div class="project" class="reveal">
       <h3>Vulnerable Web (Educational)</h3>
       <p>Learning platform for security vulnerabilities (XSS, CSRF, Account Hijacking). Built with Node.js, EJS, MySQL, CSS.</p>
     </div>
-    <div class="project">
+    <div class="project" class="reveal">
       <h3>Notes App</h3>
       <p>JWT authentication, bcrypt password hashing, CRUD notes, role-based authorization. Built with React, Express, MongoDB.</p>
     </div>
-    <div class="project">
+    <div class="project" class="reveal">
       <h3>File Monitoring System</h3>
       <p>Python + C# system to detect and log file changes for security monitoring.</p>
     </div>
-    <div class="project">
+    <div class="project" class="reveal">
       <h3>Prediction Policy (Big Data + ML)</h3>
       <p>Predictive analytics using Hadoop, Spark, and ML models for policy decision support.</p>
     </div>
   </section>
 
   <!-- Achievements -->
-  <section id="achievements">
+  <section id="achievements" class="reveal">
     <h2>Achievements</h2>
     <ul>
       <li>Certified Full-Stack Developer (Qemer Software Technology, specialized in backend)</a></li>
-      <li>Udacity graduate (4 free courses completed)</a></li>
+      <li>Udacity (4 free courses completed)</a></li>
       <li>INSA summer camp graduate + internship experience</a></li>
       <li>Founder of TechXpert Startup (Cybersecurity, Web/Mobile Development, Graphics Design, Video Editing)</li>
     </ul>
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section id="contact" class="reveal">
     <h2>Contact</h2>
     <p>Email: <a href="aberabontu776@gmail.com">aberabontu776@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/Bontuko" target="_blank">https://github.com/Bontuko</a></p>
+    <p>phone: +251960684034</p>
   </section>
 
   <!-- Footer -->
